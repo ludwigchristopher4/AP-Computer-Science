@@ -10,8 +10,10 @@ class t1_lesson04_template{
 
 
      public static void main (String str[]) throws IOException {
-int a = 91;
-System.out.println(a / 2);
+Scanner scan = new Scanner(System.in);
+
+double val = scan.nextDouble();
+System.out.println(val - 11.5);
           
           
 

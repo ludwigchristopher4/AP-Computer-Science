@@ -34,6 +34,10 @@ Scanner scan = new Scanner (System.in);
 
 System.out.println("Please enter two deccimal values:");
 
+double x = scan.nextDouble();
+double y = scan.nextDouble();
+double z = x-y;
+System.out.println(Math.round(z*1000)/1000.0);
                     
 
     }

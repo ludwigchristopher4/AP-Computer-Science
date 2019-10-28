@@ -5,16 +5,17 @@
 import java.io.*;
 import static java.lang.System.*;
 import java.util.Scanner;
+import java.util.Random;
 
 class t1_lesson04_template{
 
 
      public static void main (String str[]) throws IOException {
-Scanner scan = new Scanner(System.in);
+int n=5;
+  int m=2;
 
-double val = scan.nextDouble();
-System.out.println(val - 11.5);
-          
+System.out.println ((int) (Math.random()*(n - m + 1)) + m);
+
           
 
      }
